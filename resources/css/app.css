@@ -68,6 +68,7 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
+
     *,
     ::after,
     ::before,
@@ -169,4 +170,8 @@ h2 {
 
 a {
     text-decoration: underline;
+}
+
+input {
+    border: 1px solid #ccc;
 }
